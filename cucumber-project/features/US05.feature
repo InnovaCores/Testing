@@ -1,6 +1,6 @@
-Feature: US02 - Enlaces Directos a Redes Sociales
+Feature: US05 - Resumen de la Empresa, Misión y Visión
 
-  Scenario: Acceso a Redes Sociales desde el sitio
-    Given que el usuario potencial está en la página principal
-    When navega hacia el pie de página
-    Then puede ver y seleccionar enlaces directos a las redes sociales de la plataforma
+  Scenario: Visualización de Misión y Visión de la Empresa
+    Given que el visitante está en la página principal
+    When accede a la sección "Sobre Nosotros"
+    Then puede ver un resumen de la empresa con su misión y visión claramente especificadas
